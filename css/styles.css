@@ -1,0 +1,235 @@
+@font-face {
+  font-family: WorkSansLight;
+  src: url('../assets/fonts/Work_Sans/static/WorkSans-Light.ttf');
+}
+@font-face{
+    font-family: WorkSansMedium;
+    src: url('../assets/fonts/Work_Sans/static/WorkSans-Medium.ttf')
+}
+body{
+    margin: 0;
+    color: #333333;
+}
+body h1{
+    font-family: WorkSansMedium;
+}
+body h2{
+    font-family: WorkSansLight;
+
+}
+.topnav {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 1px 4px #868686;
+    position: sticky;
+    top: 0;
+}
+.topnav a {
+    color: #7e7e7e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.topnav a:hover{
+    color: cadetblue;
+}
+section.after-nav div{
+    text-align: center;
+    padding: 10px;
+
+}
+section.body {
+    padding: 80px;
+    display: flex;
+    padding-top: 40px;
+}
+section.body div{
+    text-align: center;
+    
+}
+section.body div:first-child{
+    width: 50%;
+    margin-right: 50px;
+    
+}
+.large-img{
+    width: 100%;
+    height: 450px;
+    box-shadow: 2px 2px 4px#858585;
+}
+.small-img{
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+}
+table{
+    margin-top: 20px;
+}
+section.body div:nth-child(2){
+    width: 50%;
+    text-align: left;
+}
+.icon{
+    width: 20px;
+    padding-right: 5px;
+}
+
+#quantity-box{
+    margin-left: 0;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    
+}
+li{
+    display: inline;
+}
+ul.product-tags li h3{
+    display: inline;
+    margin-right: 2em;
+}
+.product-tags li h3:hover{
+    fill: cadetblue;
+    color: cadetblue;
+    cursor: pointer;
+}
+h5{
+    margin: 0px;
+    color: #858585;
+}
+h1{
+    padding:0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+s{
+    color: #858585;
+}
+h3#price{
+    margin:0;
+    width: 20px;
+}
+div.price-tag{
+    display: flex;
+    width: 20%;  
+}
+#product-details p{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+div.price-tag div:first-child{
+    margin: auto;
+    padding-right: 5px;
+}
+div.price-tag div:nth-child(2){
+    margin: auto;
+}
+#button{
+    color: white;
+    background-color: #333333;
+    margin-top: 40px;
+    width: 196px;
+    height: 50px;
+    border: 1px solid #333333;
+    text-align: center;
+
+}
+#button:hover{
+    background-color: white;
+    color:#333333;
+    cursor: pointer;
+}
+#button span{
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  div label.container{
+      font-size: 20px;
+      padding-left: 0px;
+  }
+  div#cards{
+      display: flex;
+      border-bottom: 1px solid #c0c0c0;
+      padding-bottom: 30px;
+  }
